@@ -1,23 +1,25 @@
 name: diyuanzhz
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
+    - cron: '32 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: diyuanzhz
         env:
-          rxuu15241: ${{ secrets.rxuu15241 }}
+          csj7: ${{ secrets.csj7 }}
         run: |
-          echo $rxuu15241 | jq -r .ocddr32650 | /bin/bash
-          echo $twut9894 | jq -r .l5 | /bin/bash
-          echo $modaj98 | jq -r .p654 | /bin/bash
-          echo $ow28 | jq -r .bsnz017 | /bin/bash
-          echo $s410 | jq -r .w49 | /bin/bash
-          echo $psrvq4 | jq -r .sxzbe97 | /bin/bash
-          echo $ye2714 | jq -r .pgyvb8 | /bin/bash
+          echo $csj7 | jq -r .fxgx6 | /bin/bash
+          echo $vsvzs380 | jq -r .aelx92 | /bin/bash
+          echo $c46717 | jq -r .brlcq73 | /bin/bash
+          echo $iybr43 | jq -r .xhgii59189 | /bin/bash
+          echo $n74291 | jq -r .qe3 | /bin/bash
+          echo $mia7799 | jq -r .gkqng15024 | /bin/bash
+          echo $slq3939 | jq -r .cwvo05608 | /bin/bash
 
